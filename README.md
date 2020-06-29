@@ -10,6 +10,20 @@ Table of contents
     
 <!--te-->
 
+## MSBuild
+#### [Classic](#tab/classic/)
+#### [YAML](#tab/yaml/)
+#### [GitHub Actions](#tab/gha/)
+```yaml
+    # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
+    - name: Setup MSBuild.exe
+      uses: microsoft/setup-msbuild@2008f912f56e61277eefaac6d1888b750582aa16
+      
+    # Create the app package by building and packaging the Windows Application Packaging project
+    - name: Run Msbuild
+      run: msbuild $env:Solution_Name /p:platform=$env:buildPlatform /p:Configuration=$env:buildConfiguration
+```
+
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
 
 ### Azure Pipelines
@@ -39,11 +53,6 @@ Table of contents
       connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
       dacpac-package: ./[Project Name]/bin/${{ env.buildConfiguration }}/GHA-SSDT.dacpac
 ```
-
-## MSBuild
-#### [Classic](#tab/classic/)
-#### [YAML](#tab/yaml/)
-#### [GitHub Actions](#tab/gha/)
 
 # References
 ## GitHub Actions
