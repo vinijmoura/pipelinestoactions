@@ -13,6 +13,7 @@ Table of contents
 
 ## MSBuild
 ### Azure Pipelines
+[MSBuild](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/msbuild?view=azure-devops)
 
 - Classic
 
