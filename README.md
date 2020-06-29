@@ -5,8 +5,9 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)](#Azure-SQL)
    * [MSBuild](#MSBuild)
+   * [Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)](#Azure-SQL-DacpacTask-(Pipelines)-x-Azure-SQL-Deploy-(GitHub-Actions))
+
     
 <!--te-->
 
