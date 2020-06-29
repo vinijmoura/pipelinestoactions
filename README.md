@@ -1,6 +1,13 @@
 # Azure Pipelines to GitHub Actions
 Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub Actions.
 
+Table of contents
+=================
+
+<!--ts-->
+   * [Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)](#Azure-SQL)
+<!--te-->
+
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
 
 ### Azure Pipelines
