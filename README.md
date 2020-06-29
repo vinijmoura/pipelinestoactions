@@ -4,21 +4,21 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
 
 ### Azure Pipelines
-#### Classic
-- [Azure SQL Deploy](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/SqlAzureDacpacDeploymentV1)
-#### YAML
-```yaml
-steps:
-- task: SqlAzureDacpacDeployment@1
-  displayName: 'Azure SQL DacpacTask'
-  inputs:
-    azureSubscription: '[Subscription Name]'
-    ServerName: '$(SQLServer)'
-    DatabaseName: '$(SQLDatabase)'
-    SqlUsername: '$(Login)'
-    SqlPassword: '$(Pwd)'
-    DacpacFile: '$(System.DefaultWorkingDirectory)/_[Project Name]/drop/[Project Name]/bin/Release/[Project Name].dacpac'
-```
+- Classic
+  - [Azure SQL Deploy](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/SqlAzureDacpacDeploymentV1)
+- YAML
+  ```yaml
+  steps:
+  - task: SqlAzureDacpacDeployment@1
+    displayName: 'Azure SQL DacpacTask'
+    inputs:
+      azureSubscription: '[Subscription Name]'
+      ServerName: '$(SQLServer)'
+      DatabaseName: '$(SQLDatabase)'
+      SqlUsername: '$(Login)'
+      SqlPassword: '$(Pwd)'
+      DacpacFile: '$(System.DefaultWorkingDirectory)/_[Project Name]/drop/[Project Name]/bin/Release/[Project Name].dacpac'
+  ```
 ### GitHub Actions
 - [Azure SQL Deploy](https://github.com/marketplace/actions/azure-sql-deploy)
 ```yaml
