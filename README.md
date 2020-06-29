@@ -4,8 +4,9 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
 
 ### Azure Pipelines
+[Azure SQL DacpacTask](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/SqlAzureDacpacDeploymentV1)
 - Classic
-  - [Azure SQL Deploy](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/SqlAzureDacpacDeploymentV1)
+
 - YAML
   ```yaml
   steps:
