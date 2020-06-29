@@ -19,7 +19,7 @@ Table of contents
 
 - YAML
 
-#### GitHub Actions
+### GitHub Actions
 ```yaml
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
