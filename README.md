@@ -12,9 +12,13 @@ Table of contents
 <!--te-->
 
 ## MSBuild
-#### [Classic](#tab/classic/)
-#### [YAML](#tab/yaml/)
-#### [GitHub Actions](#tab/gha/)
+### Azure Pipelines
+
+- Classic
+
+- YAML
+
+#### GitHub Actions
 ```yaml
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
@@ -26,7 +30,6 @@ Table of contents
 ```
 
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
-
 ### Azure Pipelines
 [Azure SQL DacpacTask](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/SqlAzureDacpacDeploymentV1)
 - Classic
