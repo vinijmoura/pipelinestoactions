@@ -10,63 +10,10 @@ Table of contents
 <!--te-->
 
 ## MSBuild
-### Azure Pipelines
-[MSBuild](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/msbuild?view=azure-devops)
-
-- Classic
-
-- YAML
-```yaml
-steps:
-- task: MSBuild@1
-  displayName: 'Build solution **/*.sln'
-  inputs:
-    platform: '$(BuildPlatform)'
-    configuration: '$(Buildconfiguration)'
-    msbuildArguments: '/p:OutputPath=$(Build.ArtifactStagingDirectory)'
-```
-
-### GitHub Actions
-[MSBuild](https://github.com/marketplace/actions/setup-msbuild)
-```yaml
-    # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
-    - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@2008f912f56e61277eefaac6d1888b750582aa16
-      
-    # Create the app package by building and packaging the Windows Application Packaging project
-    - name: Run Msbuild
-      run: msbuild $env:Solution_Name /p:platform=$env:buildPlatform /p:Configuration=$env:buildConfiguration
-```
+[!INCLUDE [temp](./tasks/MSBuild.md)]
 
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
-### Azure Pipelines
-[Azure SQL DacpacTask](https://github.com/microsoft/azure-pipelines-tasks/tree/master/Tasks/SqlAzureDacpacDeploymentV1)
-
-- Classic
-
-- YAML
-```yaml
-steps:
-- task: SqlAzureDacpacDeployment@1
-  displayName: 'Azure SQL DacpacTask'
-  inputs:
-    azureSubscription: '[Subscription Name]'
-    ServerName: '$(SQLServer)'
-    DatabaseName: '$(SQLDatabase)'
-    SqlUsername: '$(Login)'
-    SqlPassword: '$(Pwd)'
-    DacpacFile: '$(System.DefaultWorkingDirectory)/_[Project Name]/drop/[Project Name]/bin/Release/[Project Name].dacpac'
-  ```
-### GitHub Actions
-[Azure SQL Deploy](https://github.com/marketplace/actions/azure-sql-deploy)
-```yaml
-- name: Azure SQL Deploy
-  uses: Azure/sql-action@v1
-  with:
-    server-name: ${{ secrets.SQL_SERVERNAME }}
-    connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
-    dacpac-package: ./[Project Name]/bin/${{ env.buildConfiguration }}/GHA-SSDT.dacpac
-```
+[!INCLUDE [temp](./tasks/SQLAzure.md)]
 
 # References
 ## GitHub Actions
