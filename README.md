@@ -27,6 +27,7 @@ steps:
 ```
 
 ### GitHub Actions
+[MSBuild](https://github.com/marketplace/actions/setup-msbuild)
 ```yaml
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
