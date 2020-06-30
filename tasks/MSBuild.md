@@ -4,6 +4,7 @@
 - Classic
 
 - YAML
+
 ```yaml
 steps:
 - task: MSBuild@1
