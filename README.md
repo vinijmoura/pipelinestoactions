@@ -5,11 +5,15 @@ Table of contents
 =================
 <!--ts-->
    * [`MSBuild`](#MSBuild)
+   * [`DotNetCore`](#DotNetCore)
    * [`Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)`](#azure-sql-dacpactask-pipelines-x-azure-sql-deploy-github-actions)
 <!--te-->
 
 ## MSBuild
 [MSBuild](/tasks/MSBuild.md)
+
+## DotNetCore
+[DotNetCore](/tasks/DotNetCore.md)
 
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
 [Azure SQL](/tasks/SQLAzure.md)
