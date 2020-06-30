@@ -12,4 +12,4 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-  - tasks/*.md
+  - tasks/MSBuild.md
