@@ -4,12 +4,13 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - CONTRIBUTING.hmtl
-  - README.hmtl
-  - LICENSE.hmtl
-  - COPYING.hmtl
-  - CODE_OF_CONDUCT.hmtl
-  - CONTRIBUTING.hmtl
-  - ISSUE_TEMPLATE.hmtl
-  - PULL_REQUEST_TEMPLATE.hmtl
-  - tasks/MSBuild.hmtl
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+  - tasks/MSBuild.md
+  - tasks/SQLAzure.md
