@@ -3,10 +3,9 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 
 Table of contents
 =================
-
 <!--ts-->
-   * [MSBuild](#MSBuild)
-   * [Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)](#azure-sql-dacpactask-pipelines-x-azure-sql-deploy-github-actions)
+   * [`MSBuild`](#MSBuild)
+   * [`Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)`](#azure-sql-dacpactask-pipelines-x-azure-sql-deploy-github-actions)
 <!--te-->
 
 ## MSBuild
