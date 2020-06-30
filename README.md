@@ -9,10 +9,10 @@ Table of contents
 <!--te-->
 
 ## MSBuild
-[MSBuild](/tasks/MSBuild.md)]
+[MSBuild](/tasks/MSBuild.md)
 
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
-[Azure SQL](/tasks/SQLAzure.md)]
+[Azure SQL](/tasks/SQLAzure.md)
 
 # References
 ## GitHub Actions
