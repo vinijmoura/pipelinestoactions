@@ -25,5 +25,5 @@ steps:
   with:
     server-name: ${{ secrets.SQL_SERVERNAME }}
     connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
-    dacpac-package: ./[Project Name]/bin/${{ env.buildConfiguration }}/GHA-SSDT.dacpac
+    dacpac-package: ./[Project Name]/bin/${{ env.buildConfiguration }}/[Project Name].dacpac
 ```
