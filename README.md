@@ -13,7 +13,7 @@ Table of contents
 [MSBuild](/tasks/MSBuild.md)
 
 ## DotNetCore
-[DotNetCore](/tasks/DotNetCore.md)
+[DotNetCore](/tasks/DotNetCoreCLI.md)
 
 ## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
 [Azure SQL](/tasks/SQLAzure.md)
