@@ -14,3 +14,4 @@ include:
   - PULL_REQUEST_TEMPLATE.md
   - tasks/MSBuild.md
   - tasks/SQLAzure.md
+  - tasks/DotNetCoreCLI.md
