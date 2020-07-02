@@ -12,7 +12,6 @@ Table of contents
 ## MSBuild
 [MSBuild](/tasks/MSBuild.md)
 
-!INCLUDE "tasks/MSBuild.md"
 ## DotNetCore
 [DotNetCore](/tasks/DotNetCoreCLI.md)
 
