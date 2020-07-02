@@ -6,7 +6,7 @@ Table of contents
 <!--ts-->
    * [`MSBuild`](#MSBuild)
    * [`DotNetCore`](#DotNetCore)
-   * [`Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)`](#azure-sql-dacpactask-pipelines-x-azure-sql-deploy-github-actions)
+   * [`Azure SQL`](#azure-sql)
 <!--te-->
 
 ## MSBuild
@@ -15,7 +15,7 @@ Table of contents
 ## DotNetCore
 [DotNetCore](/tasks/DotNetCoreCLI.md)
 
-## Azure SQL DacpacTask (Pipelines) x Azure SQL Deploy (GitHub Actions)
+## Azure SQL
 [Azure SQL](/tasks/SQLAzure.md)
 
 # References
