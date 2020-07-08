@@ -44,11 +44,11 @@ Contributions to **Pipelines to GitHub Actions** are welcome. Please fork this r
   
    ![Include New Task](images/include-newtask.png)
 
+   ![Table of contents](images/table-of-contents.png)
+
   - Link to task/action markdown
   
    ![Include MD](images/include-md.png)
-
-![Table of contents](images/table-of-contents.png)
 
 - Create new markdown file under `Tasks` folder and describe Azure Pipeline Tasks and respetive GitHub Actions. Use as an example [DotNetCore](/tasks/DotNetCoreCLI.md).
 
