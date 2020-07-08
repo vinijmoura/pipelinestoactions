@@ -6,10 +6,13 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 ## Table of contents
 ---
 <!--ts-->
-   * [`MSBuild`](#msbuild)
-   * [`DotNetCore`](#dotnetcore)
-   * [`Azure SQL`](#azure-sql)
-   * [`Docker`](#docker)
+   * Tasks/Actions
+     * [`MSBuild`](#msbuild)
+     * [`DotNetCore`](#dotnetcore)
+     * [`Azure SQL`](#azure-sql)
+     * [`Docker`](#docker)
+   * [`References`](#references)
+   * [`Contribute`](#contribute)
 <!--te-->
 
 ---
