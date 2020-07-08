@@ -15,6 +15,8 @@ Table of contents
 ## DotNetCore
 [DotNetCore](/tasks/DotNetCoreCLI.md)
 
+{% include_relative /tasks/DotNetCoreCLI.md %}
+
 ## Azure SQL
 [Azure SQL](/tasks/SQLAzure.md)
 
