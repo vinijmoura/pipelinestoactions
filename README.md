@@ -40,9 +40,13 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 Contributions to **Pipelines to GitHub Actions** are welcome. Please fork this repo.
 
 - Include on `ReadMe.md` a respective task/action that you want to document (`Table of contents` section and link to task markdown).
-* [`NEW TASK`](#newtask)
+  - Table of contents
+  
+   ![Include New Task](images/include-newtask.png)
 
-![Include MD](images/include-md.png)
+  - Link to task/action markdown
+  
+   ![Include MD](images/include-md.png)
 
 ![Table of contents](images/table-of-contents.png)
 
