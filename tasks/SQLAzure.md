@@ -23,7 +23,7 @@ steps:
 - name: Azure SQL Deploy
   uses: Azure/sql-action@v1
   with:
-    server-name: ${{ secrets.SQL_SERVERNAME }}
-    connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
-    dacpac-package: ./[Project Name]/bin/${{ env.buildConfiguration }}/[Project Name].dacpac
+    server-name: {% raw  %}${{secrets.SQL_SERVERNAME}}{% endraw %}
+    connection-string: {% raw  %}${{secrets.AZURE_SQL_CONNECTION_STRING}}{% endraw %}
+    dacpac-package: ./[Project Name]/bin/{% raw  %}${{env.buildConfiguration}}{% endraw %}/[Project Name].dacpac
 ```
