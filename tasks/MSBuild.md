@@ -3,7 +3,7 @@
 
 - Classic
 
-![MS Build](../images/task-MSBuild.png)
+![MS Build](images/task-MSBuild.png)
 
 - YAML
 
