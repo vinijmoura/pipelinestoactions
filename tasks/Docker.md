@@ -27,8 +27,8 @@ steps:
 ```yaml
     uses: docker/build-push-action@v1
     with:
-      username: ${{ "{{" }} secrets.DOCKER_USERNAME {{ "}} }}
-      password: ${{ "{{" }} secrets.DOCKER_PASSWORD {{ "}} }}
+      username: {% raw  %}${{secrets.DOCKER_USERNAME}}{% endraw %}
+      password: {% raw  %}${{secrets.DOCKER_PASSWORD}}{% endraw %}
       repository: myorg/myrepository
       tags: latest
 ```
