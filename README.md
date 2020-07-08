@@ -1,27 +1,36 @@
 # Azure Pipelines to GitHub Actions
+
 Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub Actions.
 
-Table of contents
-=================
+
+## Table of contents
+---
 <!--ts-->
    * [`MSBuild`](#MSBuild)
    * [`DotNetCore`](#DotNetCore)
    * [`Azure SQL`](#azure-sql)
+   * [`Docker`](#docker)
 <!--te-->
 
+---
+
+
 ## MSBuild
-[MSBuild](/tasks/MSBuild.md)
+{% include_relative /tasks/MSBuild.md %}
 
 ## DotNetCore
-[DotNetCore](/tasks/DotNetCoreCLI.md)
-
 {% include_relative /tasks/DotNetCoreCLI.md %}
 
 ## Azure SQL
-[Azure SQL](/tasks/SQLAzure.md)
+{% include_relative /tasks/SQLAzure.md %}
 
-# References
-## GitHub Actions
+## Docker
+{% include_relative /tasks/Docker.md %}
+
+---
+
+
+## References
+
 - [GitHub Actions](https://github.com/features/actions)
-## GitHub Marketplace
 - [GitHub Markeplace](https://github.com/marketplace?type=actions)
