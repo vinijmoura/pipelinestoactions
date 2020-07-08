@@ -3,7 +3,7 @@
 
 - Classic
 
-![Azure SQL](../images/task-AzureSQL.png)
+![Azure SQL](images/task-AzureSQL.png)
 
 - YAML
 
