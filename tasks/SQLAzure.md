@@ -3,6 +3,8 @@
 
 - Classic
 
+![Azure SQL](../images/task-AzureSQL.png)
+
 - YAML
 
 ```yaml
