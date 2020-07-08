@@ -3,6 +3,9 @@
 
 - Classic
 
+![Docker (build)](images/task-Docker-build.png)
+![Docker (push)](images/task-Docker-push.png)
+
 - YAML
 
 ```yaml

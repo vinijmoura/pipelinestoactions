@@ -3,6 +3,10 @@
 
 - Classic
 
+![.Net Core CLI (restore)](images/task-DotNetCoreCLI-restore.png)
+![.Net Core CLI (build)](images/task-DotNetCoreCLI-build.png)
+![.Net Core CLI (test)](images/task-DotNetCoreCLI-test.png)
+
 - YAML
 
 ```yaml
