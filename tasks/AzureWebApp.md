@@ -23,11 +23,11 @@ ssteps:
     - name: Azure Login
       uses: Azure/login@v1.1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: {% raw  %}${{secrets.AZURE_CREDENTIALS}}{% endraw %}
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'ghaaspnetcore'
-        package: ${{env.DOTNET_ROOT}}/myapp 
+        app-name: '[App Name]'
+        package: {% raw  %}${{env.DOTNET_ROOT}}{% endraw %}/myapp 
 ```
