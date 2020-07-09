@@ -11,6 +11,7 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
      * [`DotNetCore`](#dotnetcore)
      * [`Azure SQL`](#azure-sql)
      * [`Docker`](#docker)
+     * [`Version JSON File`](#verisonjsonfile)
    * [`References`](#references)
    * [`Contribute`](#contribute)
 <!--te-->
@@ -30,13 +31,21 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 ## Docker
 {% include_relative /tasks/Docker.md %}
 
+## Version JSON File
+{% include_relative /tasks/VersionJSONfile.md %}
+
 ---
 
 
 ## References
 
-- [GitHub Actions](https://github.com/features/actions)
-- [GitHub Markeplace](https://github.com/marketplace?type=actions)
+- Links
+  - [GitHub Actions](https://github.com/features/actions)
+  - [GitHub Markeplace](https://github.com/marketplace?type=actions)
+- Posts
+  - [Converting my Azure DevOps Tasks to GitHub Actions](https://blogs.blackmarble.co.uk/rfennell/2019/09/10/a-first-look-at-github-action-converting-my-azure-devops-tasks-to-github-actions/)
+- Video Tutorials
+  - [A first look at GitHub Actions & converting my Azure DevOps Tasks to GitHub Actions](https://www.youtube.com/watch?v=e_F_4OB9Mg4&t=1627s)
 
 ## Contribute
 
