@@ -11,7 +11,7 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
      * [`DotNetCore`](#dotnetcore)
      * [`Azure SQL`](#azure-sql)
      * [`Docker`](#docker)
-     * [`Version JSON File`](#verison-json-file)
+     * [`Version JSON File`](#version-json-file)
    * [`References`](#references)
    * [`Contribute`](#contribute)
 <!--te-->
