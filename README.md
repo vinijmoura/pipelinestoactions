@@ -47,6 +47,7 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
   - [GitHub Actions](https://github.com/features/actions)
   - [GitHub Markeplace](https://github.com/marketplace?type=actions)
 - Posts
+  - [GitHub Actions Advent Calendar](https://www.edwardthomson.com/blog/github_actions_advent_calendar.html)
   - [Converting my Azure DevOps Tasks to GitHub Actions](https://blogs.blackmarble.co.uk/rfennell/2019/09/10/a-first-look-at-github-action-converting-my-azure-devops-tasks-to-github-actions/)
 - Video Tutorials
   - [A first look at GitHub Actions & converting my Azure DevOps Tasks to GitHub Actions](https://www.youtube.com/watch?v=e_F_4OB9Mg4&t=1627s)
