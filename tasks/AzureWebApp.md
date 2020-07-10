@@ -1,6 +1,4 @@
-<!--DOCUSAURUS_CODE_TABS-->
-
-<!--### Azure Pipelines-->
+### Azure Pipelines
 [Azure Web App](https://github.com/Microsoft/azure-pipelines-tasks/blob/master/Tasks/AzureWebAppV1/README.md)
 
 - Classic
@@ -19,7 +17,7 @@ steps:
     appName: [App Name]
     package: '$(System.DefaultWorkingDirectory)\**\*.zip'
 ```
-<!--### GitHub Actions-->
+### GitHub Actions
 [Azure Web App](https://github.com/marketplace/actions/azure-webapp)
 ```yaml
     - name: Azure Login
@@ -33,4 +31,3 @@ steps:
         app-name: '[App Name]'
         package: {% raw  %}${{env.DOTNET_ROOT}}{% endraw %}/myapp 
 ```
-<!--END_DOCUSAURUS_CODE_TABS-->
