@@ -18,7 +18,6 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 <!--te-->
 ---
 
-
 ## MSBuild
 {% include_relative /tasks/MSBuild.md %}
 
@@ -36,9 +35,6 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 
 ## Azure Web App
 {% include_relative /tasks/AzureWebApp.md %}
-
----
-
 
 ## References
 
