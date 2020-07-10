@@ -1,6 +1,8 @@
 ### Azure Pipelines
 [Azure Web App](https://github.com/Microsoft/azure-pipelines-tasks/blob/master/Tasks/AzureWebAppV1/README.md)
 
+<!--DOCUSAURUS_CODE_TABS-->
+
 - Classic
 
 ![Azure Web App](images/task-AzureWebApp.png)
@@ -17,6 +19,8 @@ steps:
     appName: [App Name]
     package: '$(System.DefaultWorkingDirectory)\**\*.zip'
 ```
+
+<!--END_DOCUSAURUS_CODE_TABS-->
 
 ### GitHub Actions
 [Azure Web App](https://github.com/marketplace/actions/azure-webapp)
