@@ -1,7 +1,7 @@
+<!--DOCUSAURUS_CODE_TABS-->
+
 ### Azure Pipelines
 [Azure Web App](https://github.com/Microsoft/azure-pipelines-tasks/blob/master/Tasks/AzureWebAppV1/README.md)
-
-<!--DOCUSAURUS_CODE_TABS-->
 
 - Classic
 
@@ -20,8 +20,6 @@ steps:
     package: '$(System.DefaultWorkingDirectory)\**\*.zip'
 ```
 
-<!--END_DOCUSAURUS_CODE_TABS-->
-
 ### GitHub Actions
 [Azure Web App](https://github.com/marketplace/actions/azure-webapp)
 ```yaml
@@ -36,3 +34,4 @@ steps:
         app-name: '[App Name]'
         package: {% raw  %}${{env.DOTNET_ROOT}}{% endraw %}/myapp 
 ```
+<!--END_DOCUSAURUS_CODE_TABS-->
