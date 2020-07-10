@@ -8,7 +8,7 @@
 - YAML
 
 ```yaml
-ssteps:
+steps:
 - task: AzureWebApp@1
   displayName: 'Azure Web App'
   inputs:
