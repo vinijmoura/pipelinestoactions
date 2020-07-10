@@ -16,7 +16,9 @@ ssteps:
     appType: webApp
     appName: [App Name]
     package: '$(System.DefaultWorkingDirectory)\**\*.zip'
-  ```
+```
+{: #code-example-1}
+
 ### GitHub Actions
 [Azure Web App](https://github.com/marketplace/actions/azure-webapp)
 ```yaml
