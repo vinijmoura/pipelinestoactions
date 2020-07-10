@@ -4,7 +4,6 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 
 
 ## Table of contents
----
 <!--ts-->
    * Tasks/Actions
      * [`MSBuild`](#msbuild)
@@ -16,7 +15,6 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
    * [`References`](#references)
    * [`Contribute`](#contribute)
 <!--te-->
----
 
 ## MSBuild
 {% include_relative /tasks/MSBuild.md %}
