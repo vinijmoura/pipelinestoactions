@@ -37,6 +37,7 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 ## References
 
 - Links
+  - [Azure Pipeline Tasks](https://github.com/microsoft/azure-pipelines-tasks)
   - [GitHub Actions](https://github.com/features/actions)
   - [GitHub Markeplace](https://github.com/marketplace?type=actions)
 - Posts
