@@ -13,6 +13,7 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
      * [`Version JSON File`](#version-json-file)
      * [`Azure Web App`](#azure-web-app)
      * [`VSBuild`](#vsbuild)
+     * [`Azure CLI`](#azure-cli)
    * [`References`](#references)
    * [`Contribute`](#contribute)
 <!--te-->
@@ -37,6 +38,9 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 
 ## VSBuild
 {% include_relative /tasks/VSBuild.md %}
+
+## Azure CLI
+{% include_relative /tasks/AzureCLI.md %}
 
 ## References
 
