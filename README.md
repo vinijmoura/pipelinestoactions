@@ -14,6 +14,7 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
      * [`Azure Web App`](#azure-web-app)
      * [`VSBuild`](#vsbuild)
      * [`Azure CLI`](#azure-cli)
+     * [`IIS web app deploy`](#iis-web-app-deploy)
    * [`References`](#references)
    * [`Contribute`](#contribute)
 <!--te-->
@@ -41,6 +42,9 @@ Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub
 
 ## Azure CLI
 {% include_relative /tasks/AzureCLI.md %}
+
+## IIS web app deploy
+{% include_relative /tasks/DeployIIS.md %}
 
 ## References
 
