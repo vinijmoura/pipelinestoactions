@@ -1,6 +1,7 @@
 # Azure Pipelines to GitHub Actions
 
 Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub Actions.
+To check each implmentation, please access GitHub Pages: https://vinijmoura.github.io/pipelinestoactions/ 
 
 
 ## Table of contents
