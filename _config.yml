@@ -1,4 +1,4 @@
-title: Pipelines2Actions
+title: PipelinesToActions
 description: Use this guidance to rewrite Azure Pipelines (Build and Release Tasks) on GitHub Actions.
 markdown: kramdown
 
