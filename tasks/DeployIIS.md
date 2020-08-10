@@ -58,5 +58,5 @@ steps:
       run: msbuild $env:Solution_Name /p:platform=$env:buildPlatform /p:Configuration=$env:buildConfiguration /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation='C:\myapp'
           
     - name: Run MSDeploy.exe
-      run: msdeploy -verb:sync -source:package=C:\myapp\{% raw  %}${{ env.zipName }}{% endraw %}.zip -dest:auto -setParam:name=`'IIS Web Application Name`',value=$env:WebSiteName -enableRule:DoNotDeleteRule
+      run: msdeploy -verb:sync -source:package=C:\myapp\{% raw  %}${{ env.zipName }}{% endraw %} -dest:auto -setParam:name=`'IIS Web Application Name`',value=$env:WebSiteName -enableRule:DoNotDeleteRule
 ```
