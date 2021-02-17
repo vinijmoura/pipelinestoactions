@@ -30,6 +30,7 @@ steps:
 
 ### GitHub Actions
 [Setup Nuget.exe](https://github.com/marketplace/actions/setup-nuget-exe)
+
 [Setup MSBuild.exe](https://github.com/marketplace/actions/setup-msbuild-exe)
 
 ```yaml
