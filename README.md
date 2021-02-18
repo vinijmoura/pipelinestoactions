@@ -16,6 +16,7 @@ To check each implmentation, please access [PipelineToActions](https://vinijmour
      * [`VSBuild`](#vsbuild)
      * [`Azure CLI`](#azure-cli)
      * [`IIS web app deploy`](#iis-web-app-deploy)
+     * [`Publish Artifact`](#publish-artifact)
    * [`References`](#references)
    * [`Contribute`](#contribute)
 <!--te-->
@@ -46,6 +47,10 @@ To check each implmentation, please access [PipelineToActions](https://vinijmour
 
 ## IIS web app deploy
 {% include_relative /tasks/DeployIIS.md %}
+
+## Publish Artifact
+{% include_relative /tasks/PublishArtifact.md %}
+
 
 ## References
 
