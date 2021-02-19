@@ -7,50 +7,66 @@ To check each implmentation, please access [PipelineToActions](https://vinijmour
 ## Table of contents
 <!--ts-->
    * Tasks/Actions
-     * [`MSBuild`](#msbuild)
-     * [`DotNetCore`](#dotnetcore)
-     * [`Azure SQL`](#azure-sql)
-     * [`Docker`](#docker)
-     * [`Version JSON File`](#version-json-file)
-     * [`Azure Web App`](#azure-web-app)
-     * [`VSBuild`](#vsbuild)
-     * [`Azure CLI`](#azure-cli)
-     * [`IIS web app deploy`](#iis-web-app-deploy)
-     * [`Publish Artifact`](#publish-artifact)
+     * [`A`](#a)
+       * [`Azure CLI`](#azure-cli)
+       * [`Azure SQL`](#azure-sql)
+       * [`Azure Web App`](#azure-web-app)
+     * [`D`](#d)
+       * [`Docker`](#docker)
+       * [`DotNetCore`](#dotnetcore)
+     * [`I`](#i)
+       * [`IIS web app deploy`](#iis-web-app-deploy)
+     * [`M`](#m)
+       * [`MSBuild`](#msbuild)
+     * [`P`](#p)
+       * [`Publish Artifact`](#publish-artifact)
+     * [`V`](#v)   
+       * [`Version JSON File`](#version-json-file)
+       * [`VSBuild`](#vsbuild)
    * [`References`](#references)
    * [`Contribute`](#contribute)
 <!--te-->
 
-## MSBuild
-{% include_relative /tasks/MSBuild.md %}
+## A
+### Azure CLI
+{% include_relative /tasks/AzureCLI.md %}
 
-## DotNetCore
-{% include_relative /tasks/DotNetCoreCLI.md %}
-
-## Azure SQL
+### Azure SQL
 {% include_relative /tasks/SQLAzure.md %}
 
-## Docker
+### Azure Web App
+{% include_relative /tasks/AzureWebApp.md %}
+
+## D
+
+### Docker
 {% include_relative /tasks/Docker.md %}
 
-## Version JSON File
-{% include_relative /tasks/VersionJSONfile.md %}
+### DotNetCore
+{% include_relative /tasks/DotNetCoreCLI.md %}
 
-## Azure Web App
-{% include_relative /tasks/AzureWebApp.md %}
+## I
+
+### IIS web app deploy
+{% include_relative /tasks/DeployIIS.md %}
+
+## M
+
+### MSBuild
+{% include_relative /tasks/MSBuild.md %}
+
+## P
+
+### Publish Artifact
+{% include_relative /tasks/PublishArtifact.md %}
+
+## V
+
+### Version JSON File
+{% include_relative /tasks/VersionJSONfile.md %}
 
 ## VSBuild
 {% include_relative /tasks/VSBuild.md %}
-
-## Azure CLI
-{% include_relative /tasks/AzureCLI.md %}
-
-## IIS web app deploy
-{% include_relative /tasks/DeployIIS.md %}
-
-## Publish Artifact
-{% include_relative /tasks/PublishArtifact.md %}
-
 
 ## References
 
